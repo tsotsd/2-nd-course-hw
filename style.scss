@@ -178,18 +178,39 @@
      display: flex;
      align-items: center;
      color: #FFFFFF;
-    padding: 236;
+     padding: 236px 262px 32px 32px;
     }
-
-
+    &__item2 {
+      background-image: url(img/game2.png);
+      height: 300px;
+      width: 378px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+      padding: 236px 262px 32px 32px;
+     }
+     &__item3 {
+      background-image: url(img/game3.png);
+      height: 300px;
+      width: 378px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+      padding: 236px 262px 32px 32px;
+     }
    &__item {
-
      transition: all 0.3s;
-
      &:hover {
        transform: scale(1.05);
        box-shadow: 0 0 50px #ccc;
-
      }
    }
  }
