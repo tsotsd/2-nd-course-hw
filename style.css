@@ -49,9 +49,6 @@ a {
   display: flex;
 }
 
-.header {
-  margin-left: 120px;
-}
 .header__title {
   font-style: normal;
   font-weight: 700;
@@ -68,13 +65,13 @@ a {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: flex;
   align-items: center;
   color: #8f8a8a;
   margin-top: 32px;
   margin-bottom: 44px;
 }
-.header__text_color {
+.header__text_span {
+  display: inline-block;
   color: #FFFFFF;
 }
 .header__button {
@@ -111,9 +108,20 @@ a {
   justify-content: center;
   gap: 32px;
 }
-.game__item {
+.game__item1 {
+  background-image: url(img/game1.png);
   height: 300px;
   width: 378px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 236;
+}
+.game__item {
   transition: all 0.3s;
 }
 .game__item:hover {
