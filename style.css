@@ -1,0 +1,122 @@
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/headerback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.header {
+  margin-left: 120px;
+}
+.header__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 217px;
+  max-width: 700px;
+}
+.header__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #8f8a8a;
+  margin-top: 32px;
+  margin-bottom: 44px;
+}
+.header__text_color {
+  color: #FFFFFF;
+}
+.header__button {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: 1px solid #000;
+  transition: background-color 1s;
+  animation: jello-horizontal 1s steps(2, end) both;
+}
+.header__button:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+.header__button_color {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.middle {
+  height: 556px;
+  background-image: url(img/gameback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.game__item {
+  height: 300px;
+  width: 378px;
+  transition: all 0.3s;
+}
+.game__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #ccc;
+}/*# sourceMappingURL=style.css.map */
