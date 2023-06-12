@@ -65,4 +65,4 @@
 
 // Задание 10
 // let name = prompt("What is your name?");
-// alert(`Привет,` ${name});
+// alert(`Привет,` ${name}"!");
