@@ -180,9 +180,9 @@ a {
     line-height: 22px;
     color: #FFFFFF;
   }
-  /* .middle{
+  .middle{
     height: 1221px;
-  } */
+  }
    .game {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
