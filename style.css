@@ -107,41 +107,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 32px;
-  padding-top: 128px;
-  padding-bottom: 128px;
-}
-.game__item1 {
-  background-image: url(img/game1.png);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  padding: 236px 262px 32px 32px;
-}
-.game__item2 {
-  background-image: url(img/game2.png);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  padding: 236px 262px 32px 32px;
-}
-.game__item3 {
-  background-image: url(img/game3.png);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  padding: 236px 262px 32px 32px;
 }
 .game__item {
   height: 300px;
@@ -152,6 +117,36 @@ a {
   transform: scale(1.05);
   box-shadow: 0 0 50px #ccc;
 }
+.game__item1 {
+  background-image: url(img/game1.png);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 236px 262px 32px 32px;
+}
+.game__item2 {
+  background-image: url(img/game2.png);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 236px 262px 32px 32px;
+}
+.game__item3 {
+  background-image: url(img/game3.png);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 236px 262px 32px 32px;
+}
 
 @media (max-width: 768px) {
   .center {
@@ -161,6 +156,8 @@ a {
   .header {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -169,7 +166,6 @@ a {
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    display: flex;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
@@ -178,14 +174,25 @@ a {
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
+    align-items: center;
+    text-align: center;
     color: #FFFFFF;
   }
-  .middle{
+  .header_button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 70.47px;
+    top: 447.7px;
+    background: #9C0332;
+    border-radius: 30px;
+  }
+  .middle {
     height: 1221px;
   }
-   .game {
+  .game {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-top: 128px;
   }
   .game__item {
     grid-column: 1/-1;

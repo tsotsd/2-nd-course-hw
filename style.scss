@@ -155,7 +155,7 @@
  }
 
  .middle {
-   max-height: 556px;
+   height: 556px;
    background-image: url(img/gameback.jpg);
    background-repeat: no-repeat;
    background-position: center;
@@ -168,15 +168,15 @@
    gap: 32px;
 
    &__item {
-    margin-top: 128px;
-    height: 300px;
-    width: 378px;
-    transition: all 0.3s;
-    &:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 50px #ccc;
-    }
-  }
+     height: 300px;
+     width: 378px;
+     transition: all 0.3s;
+
+     &:hover {
+       transform: scale(1.05);
+       box-shadow: 0 0 50px #ccc;
+     }
+   }
 
    &__item1 {
      background-image: url(img/game1.png);
