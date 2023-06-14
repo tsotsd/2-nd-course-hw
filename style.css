@@ -153,4 +153,57 @@ a {
 .game__item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px #ccc;
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .header_text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .header_button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 70.47px;
+    top: 447.7px;
+    background: #9C0332;
+    border-radius: 30px;
+  }
+  .middle {
+    height: 1221px;
+  }
+  .game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 128px;
+  }
+  .game__item {
+    grid-column: 1/-1;
+    width: 343px;
+    gap: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
