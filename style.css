@@ -194,6 +194,10 @@ a {
   justify-content: space-between;
 }
 
+.seasons {
+  margin-top: 282px;
+  margin-bottom: 282px;
+}
 .seasons__title {
   font-weight: 700;
   font-size: 48px;
@@ -209,6 +213,8 @@ a {
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .seasons__button {
   width: 234.06px;
@@ -233,6 +239,10 @@ a {
 .seasons__button:hover {
   background-color: #ffffff;
   color: #ff0000;
+}
+
+.gamePad {
+  margin-top: 232px;
 }
 
 @media (max-width: 768px) {

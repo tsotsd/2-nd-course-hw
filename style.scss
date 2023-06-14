@@ -270,6 +270,8 @@
   justify-content: space-between;
 }
  .seasons {
+  margin-top: 282px;
+  margin-bottom: 282px;
    &__title {
      font-weight: 700;
      font-size: 48px;
@@ -286,6 +288,8 @@
      display: flex;
      align-items: center;
      color: #FFFFFF;
+     padding-top: 32px;
+     padding-bottom: 32px;
    }
 
    &__button {
@@ -313,6 +317,9 @@
       color: #ff0000;
     }
    }
+ }
+ .gamePad {
+  margin-top: 232px;
  }
 
  @import 'mobile';
