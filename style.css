@@ -21,6 +21,35 @@
     transform: scale3d(1, 1, 1);
   }
 }
+@keyframes myAnim {
+  0%, 100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  10% {
+    transform: rotate(8deg);
+  }
+  20%, 40%, 60% {
+    transform: rotate(-10deg);
+  }
+  30%, 50%, 70% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-8deg);
+  }
+  90% {
+    transform: rotate(8deg);
+  }
+}
+@keyframes seasons__button {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -95,7 +124,7 @@ a {
   color: #FFFFFF;
 }
 
-.middle {
+.topPart {
   height: 556px;
   background-image: url(img/gameback.jpg);
   background-repeat: no-repeat;
@@ -155,6 +184,57 @@ a {
   box-shadow: 0 0 50px #ccc;
 }
 
+.middlePart {
+  background-image: url(img/seasonsback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.seasons__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.seasons__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.seasons__button {
+  width: 234.06px;
+  height: 48.6px;
+  left: 0px;
+  top: 187px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: 1px solid #000;
+  transition: background-color 1s;
+  animation: seasons__button 2s ease 0s 1 normal forwards;
+}
+.seasons__button_color {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: center;
+}
+.seasons__button:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -193,7 +273,7 @@ a {
     background: #9C0332;
     border-radius: 30px;
   }
-  .middle {
+  .topPart {
     height: 1221px;
   }
   .game {
