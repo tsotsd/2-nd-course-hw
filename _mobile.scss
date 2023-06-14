@@ -12,24 +12,24 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
 
-    &__title {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 39px;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
-    }
+        &__title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
 
-    &_text {
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 22px;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
+        &_text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
 
         &_button {
             width: 234.06px;
@@ -40,12 +40,16 @@
             border-radius: 30px;
         }
     }
+
     .middle {
-    height: 1221px;
+        height: 1221px;
+
     }
+
     .game {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        padding-top: 128px;
 
         &__item {
             grid-column: 1 / -1;
