@@ -245,6 +245,10 @@ a {
   margin-top: 232px;
 }
 
+.gamePadMobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -295,5 +299,11 @@ a {
     grid-column: 1/-1;
     width: 343px;
     gap: 32px;
+  }
+  .gamePad {
+    display: none;
+  }
+  .gamePadMobile {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
