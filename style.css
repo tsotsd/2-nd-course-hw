@@ -134,6 +134,7 @@ a {
 
 .game {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
 }
@@ -265,6 +266,7 @@ a {
     text-align: center;
   }
   .header__title {
+    margin-top: 1px;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;

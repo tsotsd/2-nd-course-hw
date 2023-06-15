@@ -206,8 +206,10 @@
 
  .game {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    gap: 32px;
+
 
    &__item1 {
      background-image: url(img/game1.png);
