@@ -21,6 +21,35 @@
     transform: scale3d(1, 1, 1);
   }
 }
+@keyframes myAnim {
+  0%, 100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  10% {
+    transform: rotate(8deg);
+  }
+  20%, 40%, 60% {
+    transform: rotate(-10deg);
+  }
+  30%, 50%, 70% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-8deg);
+  }
+  90% {
+    transform: rotate(8deg);
+  }
+}
+@keyframes seasons__button {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -95,7 +124,7 @@ a {
   color: #FFFFFF;
 }
 
-.middle {
+.topPart {
   height: 556px;
   background-image: url(img/gameback.jpg);
   background-repeat: no-repeat;
@@ -105,6 +134,7 @@ a {
 
 .game {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
 }
@@ -129,6 +159,9 @@ a {
 }
 .game__item2 {
   background-image: url(img/game2.png);
+  height: 300px;
+  width: 378px;
+  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -139,6 +172,9 @@ a {
 }
 .game__item3 {
   background-image: url(img/game3.png);
+  height: 300px;
+  width: 378px;
+  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -146,6 +182,77 @@ a {
   align-items: center;
   color: #FFFFFF;
   padding: 236px 262px 32px 32px;
+}
+
+.middlePart {
+  height: 800px;
+  background-image: url(img/seasonsback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.seasons {
+  margin-top: 282px;
+  margin-bottom: 282px;
+}
+.seasons__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.seasons__text {
+  font-weight: 300;
+  font-size: 18px;
+}
+.seasons__item2 {
+  background-image: url(img/game2.png);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.seasons__button {
+  width: 234.06px;
+  height: 48.6px;
+  left: 0px;
+  top: 187px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: 1px solid #000;
+  transition: background-color 1s;
+  animation: seasons__button 2s ease 0s 1 normal forwards;
+}
+.seasons__button_color {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: center;
+}
+.seasons__button:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+.gamePad {
+  margin-top: 232px;
+}
+
+.gamePadMobile {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -163,6 +270,7 @@ a {
     text-align: center;
   }
   .header__title {
+    margin-top: 10px;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
@@ -198,5 +306,63 @@ a {
     grid-column: 1/-1;
     width: 343px;
     gap: 32px;
+  }
+  .middlePart {
+    height: 653px;
+  }
+  .seasons {
+    margin-top: 51px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .seasons__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+  }
+  .seasons__title_span {
+    color: rgb(0, 0, 0);
+  }
+  .seasons__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+  }
+  .seasons__button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 70.47px;
+    top: 2176px;
+    background: #9C0332;
+    border-radius: 30px;
+  }
+  .seasons__button_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .gamePad {
+    display: none;
+  }
+  .gamePadMobile {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
