@@ -268,8 +268,16 @@ a {
 .gamePadWords {
   width: 481px;
   height: 322px;
+  padding-top: 238px;
 }
 
+.words {
+  padding-top: 282px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
 .words__title {
   font-weight: 700;
   font-size: 48px;

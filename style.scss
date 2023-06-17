@@ -357,9 +357,16 @@
  .gamePadWords {
    width: 481px;
    height: 322px;
+   padding-top: 238px;
  }
 
  .words {
+  padding-top: 282px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 32px;
+
    &__title {
      font-weight: 700;
      font-size: 48px;
@@ -370,7 +377,7 @@
    }
 
    &__text {
-    width: 588px;
+     width: 588px;
      font-weight: 300;
      font-size: 18px;
      line-height: 32px;
