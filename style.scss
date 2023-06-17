@@ -71,49 +71,54 @@
      transform: scale3d(1, 1, 1);
    }
  }
-@keyframes myAnim {
-	0%,
-	100% {
-		transform: rotate(0deg);
-		transform-origin: 50% 50%;
-	}
 
-	10% {
-		transform: rotate(8deg);
-	}
+ @keyframes myAnim {
 
-	20%,
-	40%,
-	60% {
-		transform: rotate(-10deg);
-	}
+   0%,
+   100% {
+     transform: rotate(0deg);
+     transform-origin: 50% 50%;
+   }
 
-	30%,
-	50%,
-	70% {
-		transform: rotate(10deg);
-	}
+   10% {
+     transform: rotate(8deg);
+   }
 
-	80% {
-		transform: rotate(-8deg);
-	}
+   20%,
+   40%,
+   60% {
+     transform: rotate(-10deg);
+   }
 
-	90% {
-		transform: rotate(8deg);
-	}
-}
-@keyframes seasons__button {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
+   30%,
+   50%,
+   70% {
+     transform: rotate(10deg);
+   }
 
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
+   80% {
+     transform: rotate(-8deg);
+   }
+
+   90% {
+     transform: rotate(8deg);
+   }
+ }
+
+ @keyframes seasons__button {
+
+   0%,
+   50%,
+   100% {
+     opacity: 1;
+   }
+
+   25%,
+   75% {
+     opacity: 0;
+   }
+ }
+
  * {
    margin: 0;
    padding: 0;
@@ -157,6 +162,7 @@
    }
 
    &__text {
+    width: 481px;
      font-style: normal;
      font-weight: 300;
      font-size: 18px;
@@ -209,6 +215,8 @@
    flex-wrap: wrap;
    justify-content: center;
    gap: 32px;
+   padding-top: 128px;
+   padding-bottom: 128px;
 
    &__item {
 
@@ -260,21 +268,27 @@
      color: #FFFFFF;
      padding: 236px 262px 32px 32px;
    }
-  
+
  }
-.middlePart {
-  height: 800px;
-  background-image: url(img/seasonsback.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
+ .middlePart {
+   height: 800px;
+   background-image: url(img/seasonsback.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
  .seasons {
-  margin-top: 282px;
-  margin-bottom: 282px;
+   margin-top: 282px;
+   margin-bottom: 282px;
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+
    &__title {
      font-weight: 700;
      font-size: 48px;
@@ -287,18 +301,10 @@
    &__text {
      font-weight: 300;
      font-size: 18px;
-   }
-
-   &__item2 {
-     background-image: url(img/game2.png);
-     font-weight: 600;
-     font-size: 24px;
      line-height: 32px;
      display: flex;
      align-items: center;
      color: #FFFFFF;
-     padding-top: 32px;
-     padding-bottom: 32px;
    }
 
    &__button {
@@ -311,7 +317,11 @@
      border: 1px solid #000;
      transition: background-color 1s;
      animation: seasons__button 2s ease 0s 1 normal forwards;
-     
+     &:hover {
+      background-color: #ffffff;
+      color: #ff0000;
+    }
+
      &_color {
        font-weight: 400;
        font-size: 18px;
@@ -321,16 +331,16 @@
        color: #FFFFFF;
        justify-content: center;
      }
-     &:hover {
-      background-color: #ffffff;
-      color: #ff0000;
-    }
    }
  }
+
  .gamePad {
-  margin-top: 232px;
+   margin-top: 232px;
  }
-.gamePadMobile {
-  display: none;
-}
+
+ .gamePadMobile {
+   display: none;
+ }
+
+ 
  @import 'mobile';

@@ -2,7 +2,7 @@
     .center {
         padding-left: 16px;
         padding-right: 16px;
-     }
+    }
 
     .header {
         display: flex;
@@ -23,13 +23,18 @@
             color: #FFFFFF;
         }
 
-        &_text {
+        &__text {
+            width: 343px;
             font-weight: 300;
             font-size: 14px;
             line-height: 22px;
             align-items: center;
             text-align: center;
-            color: #FFFFFF;
+            color: #8f8a8a;
+            &_span {
+                display: inline-block;
+                color: #FFFFFF;
+              }
         }
 
         &_button {
@@ -44,9 +49,10 @@
 
     .middle {
         height: 1221px;
-
     }
-
+    .topPart {
+        height: 1221px;
+    }
     .game {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
