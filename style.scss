@@ -162,7 +162,7 @@
    }
 
    &__text {
-    width: 481px;
+     width: 481px;
      font-style: normal;
      font-weight: 300;
      font-size: 18px;
@@ -317,10 +317,11 @@
      border: 1px solid #000;
      transition: background-color 1s;
      animation: seasons__button 2s ease 0s 1 normal forwards;
+
      &:hover {
-      background-color: #ffffff;
-      color: #ff0000;
-    }
+       background-color: #ffffff;
+       color: #ff0000;
+     }
 
      &_color {
        font-weight: 400;
@@ -342,5 +343,61 @@
    display: none;
  }
 
- 
+ .bottomPart {
+   height: 800px;
+   background-image: url(img/wordsback.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+ .gamePadWords {
+   width: 481px;
+   height: 322px;
+ }
+
+ .words {
+   &__title {
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 59px;
+     display: flex;
+     align-items: center;
+     color: #FFFFFF;
+   }
+
+   &__text {
+    width: 588px;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 32px;
+     display: flex;
+     align-items: center;
+     color: #FFFFFF;
+   }
+
+   &__button {
+     width: 240.44px;
+     height: 48.6px;
+     left: 736px;
+     top: 2849.2px;
+     background: #9C0332;
+     border-radius: 30px;
+     border: 1px solid #000;
+
+     &_color {
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 22px;
+       display: flex;
+       align-items: center;
+       color: #FFFFFF;
+       justify-content: center;
+     }
+   }
+ }
+
  @import 'mobile';

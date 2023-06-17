@@ -254,6 +254,58 @@ a {
   display: none;
 }
 
+.bottomPart {
+  height: 800px;
+  background-image: url(img/wordsback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gamePadWords {
+  width: 481px;
+  height: 322px;
+}
+
+.words__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.words__text {
+  width: 588px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.words__button {
+  width: 240.44px;
+  height: 48.6px;
+  left: 736px;
+  top: 2849.2px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: 1px solid #000;
+}
+.words__button_color {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
