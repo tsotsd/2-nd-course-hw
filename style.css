@@ -271,6 +271,10 @@ a {
   padding-top: 238px;
 }
 
+.gamePadWordsMobile {
+  display: none;
+}
+
 .words {
   padding-top: 282px;
   display: flex;
@@ -431,5 +435,14 @@ a {
   }
   .gamePadMobile {
     display: block;
+  }
+  .gamePadWords {
+    display: none;
+  }
+  .gamePadWordsMobile {
+    width: 344px;
+    height: 231px;
+    left: 14px;
+    top: 2942.21px;
   }
 }/*# sourceMappingURL=style.css.map */

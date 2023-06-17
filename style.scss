@@ -359,9 +359,12 @@
    height: 322px;
    padding-top: 238px;
  }
+ .gamePadWordsMobile {
+  display: none;
+}
 
  .words {
-  padding-top: 282px;
+   padding-top: 282px;
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
