@@ -397,6 +397,12 @@
      background: #9C0332;
      border-radius: 30px;
      border: 1px solid #000;
+     transition: background-color 1s;
+     animation: seasons__button 2s ease 0s 1 normal forwards;
+     &:hover {
+      background-color: #ffffff;
+      color: #ff0000;
+    }
 
      &_color {
        font-weight: 400;

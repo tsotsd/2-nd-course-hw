@@ -307,6 +307,12 @@ a {
   background: #9C0332;
   border-radius: 30px;
   border: 1px solid #000;
+  transition: background-color 1s;
+  animation: seasons__button 2s ease 0s 1 normal forwards;
+}
+.words__button:hover {
+  background-color: #ffffff;
+  color: #ff0000;
 }
 .words__button_color {
   font-weight: 400;
