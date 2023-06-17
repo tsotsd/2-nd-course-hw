@@ -422,7 +422,7 @@ a {
     background: #9C0332;
     border-radius: 30px;
   }
-  .seasons__button_text {
+  .seasons__button_color {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -436,13 +436,55 @@ a {
   .gamePadMobile {
     display: block;
   }
+  .bottomPart {
+    height: 653px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .words {
+    display: flex;
+    align-items: center;
+    padding-top: 51px;
+  }
+  .words__title {
+    width: 264px;
+    height: 39px;
+    left: 53.24px;
+    top: 2660.61px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .words__text {
+    width: 343px;
+    height: 66px;
+    left: 14.24px;
+    top: 2731.61px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .words__button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 68.71px;
+    top: 2829.61px;
+    background: #9C0332;
+    border-radius: 30px;
+  }
   .gamePadWords {
     display: none;
   }
   .gamePadWordsMobile {
-    width: 344px;
-    height: 231px;
-    left: 14px;
-    top: 2942.21px;
+    display: block;
+    padding-bottom: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
