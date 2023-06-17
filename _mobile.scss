@@ -14,7 +14,7 @@
         text-align: center;
 
         &__title {
-            margin-top: 1px;
+            margin-top: 10px;
             font-weight: 700;
             font-size: 32px;
             line-height: 39px;
@@ -42,7 +42,7 @@
         }
     }
 
-    .topPart {
+    .middle {
         height: 1221px;
 
     }
@@ -58,9 +58,11 @@
             gap: 32px;
         }
     }
-.middlePart {
-    height: 653px;
-}
+
+    .middlePart {
+        height: 653px;
+    }
+
     .seasons {
         margin-top: 51px;
         margin-bottom: 85px;
@@ -70,6 +72,7 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+
         &__title {
             font-weight: 700;
             font-size: 32px;

@@ -5,7 +5,11 @@
 // alert(a);
 
 // Задание 2
+<<<<<<< HEAD
 // Release = 2007;
+=======
+// iPhoneOneYear = 2007;
+>>>>>>> fe6a577f5373e057dc736a727859690c5e2bb12d
 // alert(iPhoneOneYear);
 
 // Задание 3
@@ -51,13 +55,21 @@
 // };
 
 // Задание 9.1
+<<<<<<< HEAD
 // user['city of residence'] = 'Moscow';
+=======
+// user.['city of residence'] = 'Moscow';
+>>>>>>> fe6a577f5373e057dc736a727859690c5e2bb12d
 
 // Задание 9.2
 // user.age = 23;
 
 // Задание 9.3
+<<<<<<< HEAD
 // delete user['city of residence'];
+=======
+// delete user.['city of residence'];
+>>>>>>> fe6a577f5373e057dc736a727859690c5e2bb12d
 
 // Задание 9.4
 // let info = prompt("Какую информацию хотите узнать о пользователе?", name);
