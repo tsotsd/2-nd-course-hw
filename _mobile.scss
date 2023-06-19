@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
     .center {
         padding-left: 16px;
-        padding-right: 16px;
-     }
+         padding-right: 16px;
+    }
 
     .header {
         display: flex;
@@ -23,13 +23,19 @@
             color: #FFFFFF;
         }
 
-        &_text {
+        &__text {
+            width: 343px;
             font-weight: 300;
             font-size: 14px;
             line-height: 22px;
             align-items: center;
             text-align: center;
-            color: #FFFFFF;
+            color: #8f8a8a;
+
+            &_span {
+                display: inline-block;
+                color: #FFFFFF;
+            }
         }
 
         &_button {
@@ -44,7 +50,10 @@
 
     .middle {
         height: 1221px;
+    }
 
+    .topPart {
+        height: 1221px;
     }
 
     .game {
@@ -107,7 +116,7 @@
             background: #9C0332;
             border-radius: 30px;
 
-            &_text {
+            &_color {
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 22px;
@@ -125,4 +134,62 @@
     .gamePadMobile {
         display: block;
     }
+
+    .bottomPart {
+        height: 653px;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+
+    .words {
+        display: flex;
+        align-items: center;
+        padding-top: 51px;
+        &__title {
+            width: 264px;
+            height: 39px;
+            left: 53.24px;
+            top: 2660.61px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        &__text {
+            width: 343px;
+            height: 66px;
+            left: 14.24px;
+            top: 2731.61px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        &__button {
+            width: 234.06px;
+            height: 48.6px;
+            left: 68.71px;
+            top: 2829.61px;
+            background: #9C0332;
+            border-radius: 30px;
+        }
+    }
+
+    .gamePadWords {
+        display: none;
+    }
+
+    .gamePadWordsMobile {
+        display: block;
+        padding-bottom: 90px;
+    }
+
 }
