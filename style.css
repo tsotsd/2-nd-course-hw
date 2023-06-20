@@ -564,4 +564,23 @@ a {
     display: block;
     padding-bottom: 90px;
   }
+  .gamePazzle__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .gamePazzle__text {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }/*# sourceMappingURL=style.css.map */
