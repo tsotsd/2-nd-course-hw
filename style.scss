@@ -359,9 +359,10 @@
    height: 322px;
    padding-top: 238px;
  }
+
  .gamePadWordsMobile {
-  display: none;
-}
+   display: none;
+ }
 
  .words {
    padding-top: 282px;
@@ -399,10 +400,11 @@
      border: 1px solid #000;
      transition: background-color 1s;
      animation: seasons__button 2s ease 0s 1 normal forwards;
+
      &:hover {
-      background-color: #ffffff;
-      color: #ff0000;
-    }
+       background-color: #ffffff;
+       color: #ff0000;
+     }
 
      &_color {
        font-weight: 400;
@@ -413,6 +415,82 @@
        color: #FFFFFF;
        justify-content: center;
      }
+   }
+ }
+
+ .lowerPart {
+   height: 800px;
+   background-image: url(img/lowerback.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+
+ .gamePazzle {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 32px;
+   padding-top: 276px;
+
+   &__title {
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 59px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #FFFFFF;
+   }
+
+   &__text {
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 32px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #FFFFFF;
+   }
+
+   &__button {
+     width: 234.06px;
+     height: 48.6px;
+     left: 608.22px;
+     top: 3643.2px;
+     background: #9C0332;
+     border-radius: 30px;
+     border: 1px solid #000;
+
+     &_color {
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 22px;
+       display: flex;
+       align-items: center;
+       color: #FFFFFF;
+       justify-content: center;
+     }
+   }
+ }
+
+ .footer {
+   height: 80px;
+   background-image: url(img/footerback.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+
+   &__text {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 15px;
+     display: flex;
+     align-items: center;
+     color: #FFFFFF;
    }
  }
 
