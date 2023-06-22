@@ -69,6 +69,7 @@
 // }
 
 // calcSquare(5);
+// ---------------------------------------------
 // Задание 4
 // function checkYaer() {
 //     let question = +prompt('How old are you');
@@ -82,3 +83,67 @@
 // }
 
 // checkYaer();
+// ------------------------------------------
+// Задание 5 
+// function calcMult() {
+//     let first = +prompt('enter the first number');
+//     let second = +prompt('enter the second number');
+    
+//     if (isNaN(first) || isNaN(second)) {
+//         alert('One or both values are not a number');
+//     } else {
+//         alert (first * second);
+//     }
+// }
+
+// calcMult();
+// -------------------------------------------
+// function calcMult(first, second) {
+   
+//     if (isNaN(first) || isNaN(second)) {
+//         console.log('One or both values are not a number');
+//     } else {
+//         console.log(first * second);
+//     }
+// }
+
+// calcMult('df','sw');
+// calcMult(5,8);
+// calcMult(5,'fv');
+// ----------------------------------------
+// Задание 6
+
+// function getCube() {
+//     let number = +prompt('Enter the number');
+//     cube = Math.pow(number, 3);
+//     if (isNaN(number)) {
+//         return;
+//     } else {
+//         alert(`n в кубе равняется ${cube}`);
+//     }
+// }
+// getCube();
+// ------------------------------------------
+// Задание 7
+// function getArea() {
+//     let area = `${this.radius}` * `${this.radius}` * 3.14; 
+// };
+// function getPerimetr () {
+//     let perimetr = 2 * 3.14 * `${this.radius}`;
+// };
+
+// const circle1 = {
+//     radius: 6,
+//     getArea: getArea,
+//     getPerimetr: getPerimetr,
+// }
+// const circle2 = {
+//     radius: 5,
+//     getArea: getArea,
+//     getPerimetr: getPerimetr,
+// }
+
+// console.log(circle1.getArea());
+// console.log(circle1.getPerimetr());
+// console.log(circle2.getArea());
+// console.log(circle2.getPerimetr());
