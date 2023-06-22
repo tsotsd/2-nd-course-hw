@@ -69,3 +69,16 @@
 // }
 
 // calcSquare(5);
+// Задание 4
+// function checkYaer() {
+//     let question = +prompt('How old are you');
+//     if (question >= 13) {
+//         alert('Welcome');
+//     } else if (question <= 12 && question > 0) {
+//         alert('Hi, friend')
+//     } else {
+//         alert('You entered an invalid value')
+//     }
+// }
+
+// checkYaer();
