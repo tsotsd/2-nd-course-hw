@@ -154,4 +154,19 @@
 // circle2.getArea();
 // circle2.getPerimetr();
 // --------------------------------------------
-[]
+// Задание 8
+// function getSeason(month) {
+//     if (month > 2 && month < 6) {
+//         console.log('spring');
+//     } else if (month > 5 && month < 9) {
+//         console.log('summer');
+//     } else if (month > 8 && month < 12) {
+//         console.log('autumn');
+//     } else if (month > 0 && month < 3 || month === 12) {
+//         console.log('winter');
+//     } else {
+//         console.log('Enter a value from 1 to 12');
+//     }
+// }
+
+// getSeason(12);
