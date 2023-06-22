@@ -53,3 +53,19 @@
 //     }
 // }
 // returnString();
+// -----------------------------------------
+// Задание 3.1
+// function calcSquare(square) {
+//     let result = square * square    
+//     console.log(result);
+// }
+
+// calcSquare(8);
+
+// Задание 3.2
+// function calcSquare(square) {
+//     let result = square * square    
+//     alert(result);
+// }
+
+// calcSquare(5);
