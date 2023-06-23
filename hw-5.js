@@ -154,6 +154,34 @@
 // circle2.getArea();
 // circle2.getPerimetr();
 // --------------------------------------------
+// function getArea() {
+//     let area = `${this.radius}` * `${this.radius}` * 3.14;
+//     console.log(area);
+// }
+
+// function getPerimetr() {
+//     let perimetr = 2 * 3.14 * `${this.radius}`;
+//     console.log(perimetr);
+    
+// }
+
+// const circle1 = {
+//     radius: 5,
+//     getArea,
+//     getPerimetr,
+// }
+
+// const circle2 = {
+//     radius: 8,
+//     getArea,
+//     getPerimetr,
+// }
+
+// circle1.getArea();
+// circle1.getPerimetr();
+// circle2.getArea();
+// circle2.getPerimetr();
+// -----------------------------------------
 // Задание 8
 // function getSeason(month) {
 //     if (month > 2 && month < 6) {
