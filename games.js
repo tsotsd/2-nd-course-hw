@@ -12,4 +12,4 @@ function getSeason() {
         alert('Введите значение от (1 до 12)');
     }
 }
-getSeason();
+// getSeason();
