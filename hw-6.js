@@ -41,3 +41,34 @@
 
 // console.log(arr);
 // -----------------------------
+// Задание 5
+// let arr = [1, 1, 1];
+
+// arr.push(2, 2, 2);
+// console.log(arr);
+// ------------------------------
+// // Задание 6
+// let arr = [9, 8, 7, 'a', 6, 5];
+// arr = arr.sort();
+// arr.pop();
+// console.log(arr);
+// --------------------------------
+// Задание 7
+// let arr = [9, 8, 7, 6, 5];
+// let answer = +prompt('Угадайте число спрятанное в массиве')
+// if (answer === arr.length[el]) {
+// 	alert('Угадал');
+// } else {
+// 	alert('Не угадал');
+// }
+
+// -----------
+// let array = [9, 8, 7, 6, 5];
+// let answer = Number(prompt('Угадайте число спрятанное в массиве'));
+// for (let index = 0; index < array.length; index++) {
+// 	if (array[index] === answer) {
+// 		alert('Угадал');
+// 	} else {
+// 		alert('Не угадал');
+// 	}
+// }
