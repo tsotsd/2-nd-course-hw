@@ -55,20 +55,22 @@
 // --------------------------------
 // Задание 7
 // let arr = [9, 8, 7, 6, 5];
-// let answer = +prompt('Угадайте число спрятанное в массиве')
-// if (answer === arr.length[el]) {
-// 	alert('Угадал');
-// } else {
-// 	alert('Не угадал');
-// }
+// function mystery(arr) {
+// let answer = +prompt('Угадайте число спрятанное в массиве');
+
+// for (let index = 0; index < arr.length; index++) {
+// 	if (arr[index] === answer) {
+// 		return alert('Угадал');
+// 		} 
+// 	}
+// 		alert('Не угадал');
+// }	
+// mystery(arr);
 
 // -----------
-// let array = [9, 8, 7, 6, 5];
-// let answer = Number(prompt('Угадайте число спрятанное в массиве'));
-// for (let index = 0; index < array.length; index++) {
-// 	if (array[index] === answer) {
-// 		alert('Угадал');
-// 	} else {
-// 		alert('Не угадал');
-// 	}
+// let arr = [9, 8, 7, 6, 5];
+// function mystery(arr) {
+// const answer = +prompt('Угадайте число спрятанное в массиве');
+// return alert(arr.includes(answer) ? 'Угадал' : 'Не угадал');
 // }
+// mystery(arr);
