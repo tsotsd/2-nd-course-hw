@@ -119,9 +119,22 @@
 // let result = arr.map(item => item * item);
 // console.log(result);
 // ------------------------------------------
-// Задание 12
-// function getLengthWords(params) {
-	
+// // Задание 12
+// function getLengthWords(arr) {
+// 	return arr.map(word => word.length);
+//   }
+// 	console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+// -------------------------------------
+// Задание 13
+// function filterPositive(array) {
+// 	let negatives = [];
+// 	for (let index = 0; index < array.length; index++) {
+// 		if (array[index] < 0) {
+// 			negatives.push(array[index]);
+// 		}
+// 	}
+// 	return negatives;
 // }
-
-// getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']); // [5, 0, 4, 19, 5]
+  
+//   console.log(filterPositive([-1, 0, 5, -10, 56])); 
+//   console.log(filterPositive([-25, 25, 0, -1000, -2])); 
