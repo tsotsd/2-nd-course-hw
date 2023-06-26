@@ -40,6 +40,18 @@
 // }
 
 // console.log(arr);
+// ----------------------
+// let arr = [];
+
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = []; 
+	
+// 	for (let j = 0; j < 3; j++) {
+// 		arr[i][j] = 1; 
+// 	}
+// }
+
+// console.log(arr);
 // -----------------------------
 // Задание 5
 // let arr = [1, 1, 1];
@@ -74,3 +86,42 @@
 // return alert(arr.includes(answer) ? 'Угадал' : 'Не угадал');
 // }
 // mystery(arr);
+// ---------------------
+// Задание 8
+// let line = 'abcdef'
+// line = line.split('');
+// line.reverse();
+// line = line.join('')
+// console.log(line);
+// ------------------------
+// Задание 9
+// const arr = [[1, 2, 3], [4, 5, 6]];
+// const union = [].concat(arr[0], arr[1]);
+// console.log(union);
+// -------------------------------
+// const arr = [[1, 2, 3], [4, 5, 6]];
+// const union = [].concat(...arr);
+// console.log(union);
+// -----------------------------
+// Задание 10
+// const arr = [1, 2, 3, 4]
+// const totalarr = arr.reduce((a, b) => a + b);
+// console.log(totalarr);
+// ----------------------------------
+// const arr = [1, 2, 3, 4, 5]
+// for (let index = 0; index < arr.length; index++) {
+// 	let element = arr[index] + arr[index+1]; 
+// 	console.log(element);
+// }
+// -----------------------------------------
+// Задание 11
+// const arr = [1, 2, 3, 4, 5];
+// let result = arr.map(item => item * item);
+// console.log(result);
+// ------------------------------------------
+// Задание 12
+// function getLengthWords(params) {
+	
+// }
+
+// getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']); // [5, 0, 4, 19, 5]
