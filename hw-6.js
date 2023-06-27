@@ -1,8 +1,8 @@
 // Задание 1
 // const array = [1, 5, 4, 10, 0, 3]
 // for (let index = 0; index < array.length; index++) {
-// 	if (array[index] === 10) break;
-// 	console.log(array[index]);
+// console.log(array[index]);
+// if (array[index] === 10) break;
 // }
 // --------------------------------
 // const array = [1, 5, 4, 10, 0, 3]
@@ -98,6 +98,9 @@
 // const arr = [[1, 2, 3], [4, 5, 6]];
 // const union = [].concat(arr[0], arr[1]);
 // console.log(union);
+// ----------------------------------
+// const arr2 = [[1, 2, 3], [4, 5, 6]];
+// console.log(arr2.flat());
 // -------------------------------
 // const arr = [[1, 2, 3], [4, 5, 6]];
 // const union = [].concat(...arr);
