@@ -4,14 +4,16 @@
 // console.log(str);
 // --------------------------
 // Задание 2
-// const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог']; // ['кошка', 'комар']
-// const search = 'ко'
+// function getArrString(array, str) {
+// 	let arr = [];
+// 	for(el of array) {
+// 		let element = el.toLowerCase().startsWith(str.toLowerCase());	
+// 		element ? arr.push(el.toLowerCase()) : el;
+// 	}
+// 	return arr;
+// }
 
-// searchStart.forEach((el) => {
-//   if (el.toLowerCase().includes(search.toLowerCase())) {
-//     console.log(el);
-//   }
-// });
+// console.log(getArrString(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
 // -------------------------------------------
 // Задание 3
 // let number = 32.58884;
@@ -35,8 +37,8 @@
 
 //     let arrWithNum = [];
     
-//     for(i = 0; i < n/2.5; i++) {
-//        arrWithNum.push(Math.floor(Math.random(n) * 10));
+//     for(i = 0; i < Math.floor(n/2); i++) {
+//        arrWithNum.push(Math.floor(Math.random() * n));
 //     }
     
 //     return arrWithNum;
