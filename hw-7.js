@@ -70,7 +70,7 @@
 // let daysForward73 = new Date(searchDate); 
 // console.log(daysForward73);
 // -------------------------------------
-// Задание 10
+// Задание 10 
 
 
 // function getWeekDay(date) {
