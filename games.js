@@ -11,5 +11,11 @@ function getSeason() {
     } else {
         alert('Введите значение от (1 до 12)');
     }
+};
+
+function getWords() {
+    let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    return arr.sort;
+ 
 }
-// getSeason();
+    console.log(getWords()); 
