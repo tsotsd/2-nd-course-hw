@@ -62,10 +62,13 @@
 // let myDate = new Date(2023, 5, 29, 15, 41, 20, 10); 
 // console.log(myDate); 
 // -----------------------------------
-// Задание 9 !
+// Задание 9 
 // let currentDate = new Date(); 
-// currentDate.setDate(103);
-// console.log(currentDate);
+
+// let days73 = 73 * 24 * 60 * 60 * 1000; 
+// let searchDate = +currentDate + days73;
+// let daysForward73 = new Date(searchDate); 
+// console.log(daysForward73);
 // -------------------------------------
 // Задание 10
 // для начала создадим массив, в который занесем все дни недели на русском
@@ -81,4 +84,6 @@
 
 // let myDate = new Date (1691833942054);
 // console.log(myDate);
-// // let futureDate = 'Через 73 дня после текущей наступит' + currentDate.getDate() 
+// // let futureDate = 'Через 73 дня после текущей наступит' + currentDate.getDate()
+// -----------------------------------------
+// Задание 11 
