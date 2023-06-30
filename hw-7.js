@@ -4,17 +4,14 @@
 // console.log(str);
 // --------------------------
 // Задание 2
-// const searchStart = (['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'); // ['кошка', 'комар']
-// const search = 'ко';
+// const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог']; // ['кошка', 'комар']
+// const search = 'ко'
 
 // searchStart.forEach((el) => {
-// 	if (el.toLowerCase().includes(search.toLowerCase)) {
-// 		console.log(el);
-// 	}
+//   if (el.toLowerCase().includes(search.toLowerCase())) {
+//     console.log(el);
+//   }
 // });
-
-// //searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); // ['груша']
-// //searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'); // []
 // -------------------------------------------
 // Задание 3
 // let number = 32.58884;
@@ -33,7 +30,7 @@
 //  }
 //  console.log(getRandomInt());
 // -------------------------------------------
-// Задание 6 - ?
+// Задание 6 - 
 // function getRandomArrNumbers(n) {
 
 //     let arrWithNum = [];
@@ -65,9 +62,22 @@
 // -----------------------------------
 // Задание 9
 // let currentDate = new Date(); 
-// let futureDate = currentDate.getDate() + currentDate.setDate(73); 
-// console.log(futureDate);
+// currentDate.setDate(103);
+// console.log(currentDate);
+// -------------------------------------
+// Задание 10
+// для начала создадим массив, в который занесем все дни недели на русском
+// помним, что отсчет в JS начинается с воскресенья — 0
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// // создадим массив, где будем хранить названия месяцев на русском
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+//   "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
-// let myDate = new Date (1691833942054);
-// console.log(myDate);
-// // let futureDate = 'Через 73 дня после текущей наступит' + currentDate.getDate() 
+// function getDateRu() {
+
+//   let myDate = new Date(); 
+
+//   return fullDate = myDate.getDate() + " " + months[myDate.getMonth()] +
+//     " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+// }
+// console.log(getDateRu()); 
