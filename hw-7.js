@@ -63,7 +63,7 @@
 // let myDate = new Date(2023, 5, 29, 15, 41, 20, 10); 
 // console.log(myDate); 
 // -----------------------------------
-// Задание 9
+// Задание 9 !
 // let currentDate = new Date(); 
 // let futureDate = currentDate.getDate() + currentDate.setDate(73); 
 // console.log(futureDate);
@@ -71,3 +71,5 @@
 // let myDate = new Date (1691833942054);
 // console.log(myDate);
 // // let futureDate = 'Через 73 дня после текущей наступит' + currentDate.getDate() 
+// ------------------------------
+// Задание 10
