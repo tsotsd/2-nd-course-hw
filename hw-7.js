@@ -71,19 +71,30 @@
 // console.log(daysForward73);
 // -------------------------------------
 // Задание 10
-// для начала создадим массив, в который занесем все дни недели на русском
-// помним, что отсчет в JS начинается с воскресенья — 0
-// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-// // создадим массив, где будем хранить названия месяцев на русском
-// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-//   "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
-// function getDateRu() {
 
-//   let myDate = new Date(); 
+// function getWeekDay(date) {
+// 	const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// 	return days[date.getDay()]; 	
+// }
+// function getMonthName(date) {
+// 	const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+//    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// 	return months[date.getDate()]; 	
+// }
 
-// let myDate = new Date (1691833942054);
-// console.log(myDate);
-// // let futureDate = 'Через 73 дня после текущей наступит' + currentDate.getDate()
+// function getGenerate(Date) {
+	
+// 	let resultDate = 'Дата: '; 
+// 	resultDate += Date.getDate() + ' ' + getMonthName(Date) + ' ' + Date.getFullYear();
+// 	return resultDate
+// }
+
+// let myDate = new Date();
+
+// console.log(getGenerate(myDate));
+
+
+
 // -----------------------------------------
 // Задание 11 
