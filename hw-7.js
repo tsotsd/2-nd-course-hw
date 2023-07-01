@@ -71,30 +71,22 @@
 // console.log(daysForward73);
 // -------------------------------------
 // Задание 10 
-
-
-// function getWeekDay(date) {
-// 	const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-// 	return days[date.getDay()]; 	
-// }
-// function getMonthName(date) {
-// 	const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-//    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
-// 	return months[date.getDate()]; 	
-// }
-
-// function getGenerate(Date) {
+// function formatDate(date) {
+// 	const days = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+// 	const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
 	
-// 	let resultDate = 'Дата: '; 
-// 	resultDate += Date.getDate() + ' ' + getMonthName(Date) + ' ' + Date.getFullYear();
-// 	return resultDate
-// }
-
-// let myDate = new Date();
-
-// console.log(getGenerate(myDate));
-
-
+// 	const day = days[date.getDay()];
+// 	const month = months[date.getMonth()];
+	
+// 	const dateFormat = (`Дата: ${date.getDate()} ${month} ${date.getFullYear()} - это ${day}`);
+// 	const timeFormat = (`Время: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
+	
+// 	return (`${dateFormat}\n${timeFormat}`);
+//   }
+  
+//   const today = new Date();
+//   const formattedDate = formatDate(today);
+//   console.log(formattedDate);
 
 // -----------------------------------------
 // Задание 11 
