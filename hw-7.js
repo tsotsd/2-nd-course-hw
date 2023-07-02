@@ -97,7 +97,7 @@
 //     alert(arr);
 //     let answerOne = prompt('Чему равнялся первый элемент массива?');
 //     let answerTwo = prompt('Чему равнялся последний элемент массива?');
-//     if (answerOne.toLowerCase() === arr[0].toLowerCase() && answerTwo.toLowerCase() === arr[6].toLowerCase()) {
+//     if (answerOne.toLowerCase() === arr[0].toLowerCase() && answerTwo.toLowerCase() === arr[arr.length - 1].toLowerCase()) {
 //         alert ('Поздравляю, угадал оба элемента.')
 //     } else if (answerOne.toLowerCase() === arr[0].toLowerCase() || answerTwo.toLowerCase() === arr[6].toLowerCase()) { 
 //         alert ('Вы были близки к победе!')
