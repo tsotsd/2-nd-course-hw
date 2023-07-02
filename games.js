@@ -11,5 +11,20 @@ function getSeason() {
     } else {
         alert('Введите значение от (1 до 12)');
     }
+};
+  
+function getWords() {
+    let arr = (['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']);
+    arr = arr.sort(() => Math.random() - 0.5)
+    alert(arr);
+    let answerOne = prompt('Чему равнялся первый элемент массива?');
+    let answerTwo = prompt('Чему равнялся последний элемент массива?');
+    if (answerOne.toLowerCase() === arr[0].toLowerCase() && answerTwo.toLowerCase() === arr[arr.length - 1].toLowerCase()) {
+        alert ('Поздравляю, угадал оба элемента.')
+    } else if (answerOne.toLowerCase() === arr[0].toLowerCase() || answerTwo.toLowerCase() === arr[6].toLowerCase()) { 
+        alert ('Вы были близки к победе!')
+    } else {
+        alert ('не угадал ни одного элемента')
+    }
+
 }
-// getSeason();
