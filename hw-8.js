@@ -1,4 +1,4 @@
-// task1
+// Задание 1
 // const people = [
 //     { name: 'Глеб', age: 29 },
 //     { name: 'Анна', age: 17 },
@@ -17,48 +17,46 @@
 //       return 0;
 //  });
 //  console.log(sortPeople);
-----------------------------
-// task2
-// function isPositive() {
-//     // писать код тут
-//     }
-//     function isMale() {
-//     // писать код тут
-//     }
-//     function filter() {
-//     // писать код тут
-//     }
-    
-//     console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить [3, 1, 9]
-    
-//     const people = [
-//        {name: 'Глеб', gender: 'male'},
-//        {name: 'Анна', gender: 'female'},
-//        {name: 'Олег', gender: 'male'},
-//        {name: 'Оксана', gender: 'female'}
-//     ];
-    
-//     console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
+// ----------------------------
+// Задание 2
 
-
-
-// function square(number) {
-//     return number * number;
-//   }
-  
-//   function squareRoot(number) {
-//     return Math.sqrt(number);
-//   }
-  
-//   function map(arr, ruleFunction) {
-//     const output = [];
-  
+// function getPlus(number) {
+//     if (number > 0) {
+//         return number;
+//     }
+// }
+// function getMale(sign) {
+//     if (sign.gender == 'male') {
+//         return sign;
+//     }    
+// }
+// function filter(arr, ruleFunction) {
 //     for (let i = 0; i < arr.length; i++) {
-//       output.push(ruleFunction(arr[i]));
+//     return arr.filter(ruleFunction);
+
 //     }
-  
-//     return output;
-//   }
-  
-//   console.log(map([1, 4, 9, 16], square)); // => [ 1, 16, 81, 256 ]
-//   console.log(map([1, 4, 9, 16], squareRoot)); // => [ 1, 2, 3, 4 ]
+// }
+// console.log(filter([3, -4, 1, 9], getPlus));
+// const people = [
+//     {name: 'Глеб', gender: 'male'},
+//     {name: 'Анна', gender: 'female'},
+//     {name: 'Олег', gender: 'male'},
+//     {name: 'Оксана', gender: 'female'}
+// ];
+// console.log(filter(people, getMale));
+// ---------------------------------
+// Задание 3 
+// const timer = (deadline) => {
+//     const interval = setInterval(() => {
+//         let currentDate = new Date();
+//      console.log(currentDate);
+//      }, 3000);
+    
+    
+//      setTimeout(() => {
+//         clearInterval(interval);
+//         console.log('30 секунд прошло')
+//       }, deadline * 1000)
+//     };
+    
+//     timer(30);
